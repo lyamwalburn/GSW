@@ -1,2 +1,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
 
+.head-color{
+    background-color: #D7D0C6;
+}
+
+.scale:hover{
+    transform: scale(1.2);
+}
+
+.footer-list{
+    list-style: url("/images/harp-small.png");
+    padding: 0;
+    margin: 0;
+}
+
+
+
+.footer-list > li > a, .footer-link  {
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+
+.footer-list > li > a:hover, .footer-link:hover{
+    background-color: #D7D0C6;
+}
+
+.footer-list > li:hover{
+    background-color: #D7D0C6;
+}
