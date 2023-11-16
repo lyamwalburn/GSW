@@ -29,3 +29,13 @@
 .footer-list > li:hover{
     background-color: #D7D0C6;
 }
+
+
+.beefeaterTag{
+    text-decoration: none;
+    color: white;
+}
+
+.beefeaterTag:hover{
+    color: orange;
+}
