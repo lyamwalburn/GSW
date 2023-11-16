@@ -29,3 +29,8 @@
 .footer-list > li:hover{
     background-color: #D7D0C6;
 }
+
+.heroImg{
+    background-image: url(images/factory-gate-large.jpg);
+    background-size: cover;
+}
