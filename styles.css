@@ -30,7 +30,6 @@
     background-color: #D7D0C6;
 }
 
-
 .beefeaterTag{
     text-decoration: none;
     color: white;
@@ -38,4 +37,9 @@
 
 .beefeaterTag:hover{
     color: orange;
+}
+
+.heroImg{
+    background-image: url(images/factory-gate-large.jpg);
+    background-size: cover;
 }
