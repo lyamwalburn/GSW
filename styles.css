@@ -39,6 +39,9 @@
     color: orange;
 }
 
+.nutribackground{
+    background-color: #070707d2;
+}
 .heroImg{
     background-image: url(images/factory-gate-large.jpg);
     background-size: cover;
