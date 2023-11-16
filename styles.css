@@ -30,7 +30,6 @@
     background-color: #D7D0C6;
 }
 
-
 .beefeaterTag{
     text-decoration: none;
     color: white;
@@ -42,4 +41,8 @@
 
 .nutribackground{
     background-color: #070707d2;
+}
+.heroImg{
+    background-image: url(images/factory-gate-large.jpg);
+    background-size: cover;
 }
