@@ -78,7 +78,7 @@
                         <div class="item text-center bg-light rounded shadow mb-3 col-md-3 mx-4">
                             <img class="img-fluid p-4 storeImage" src="images/nitrosurge.webp" alt="nitrosurge">
                             <div class="d-flex flex-column justify-content-end mt-5">
-                                <h5 class="fw-bold mt-2">Nitrosurge</h5>
+                                <h5 class="fw-bold mt-2">Nitrosurge Official</h5>
                                 <p class="fw-bold text-muted mt-4">£9.99</p>
                                 <button class="btn btn-success mb-3">Buy</button>
                             </div>
@@ -107,9 +107,59 @@
                                 <button class="btn btn-success mb-3">Buy</button>
                             </div>
                         </div>
-                    </div>
-                       
+                    </div>   
         </section>
+
+        <!-- order form -->
+        <section id="orderForm ">
+            <div class="container mt-2">
+                <div class="grid">
+                    <div class="row">
+                        <h4 class="text-light text-center p-2 mt-4">Shipping Details</h4>
+                    <form method="post"></form>
+                    <div class="col-md-6 col-xs-12">
+                        
+                        <div class="my-3">
+                            <label class="sr-only" for="inlineFormInputGroupUsername">Username</label>
+                            <div class="input-group">
+                              <div class="input-group-prepend">
+                                <div class="input-group-text"><i class="fa-solid fa-person fa-2x"></i></div>
+                              </div>
+                              <input type="text" class="form-control" id="inlineFormInputGroupUsername" placeholder="Name:">
+                            </div>
+                          </div>
+                          <div class="my-3">
+                            <label class="sr-only" for="inlineFormInputGroupUsername">Email</label>
+                            <div class="input-group">
+                              <div class="input-group-prepend">
+                                <div class="input-group-text"><i class="fa-solid fa-envelope p-1"></i></div>
+                              </div>
+                              <input type="text" class="form-control" id="inlineFormInputGroupEmail" placeholder="Email:">
+                            </div>
+                          </div>
+
+                    </div>
+                    <div class="col-md-6 my-3">
+                        <label class="sr-only" for="inlineFormInputGroupUsername">Email</label>
+                        <div class="input-group">
+                          <div class="input-group-prepend">
+                            <div class="input-group-text"><i class="fa-solid fa-location-dot py-5 px-1"></i></div>
+                          </div>
+                          <textarea name="address" class="form-control" placeholder="Shipping Address:"></textarea>
+                          
+                        </div>
+                      </div>
+                    <div class="col-12">                         
+                        <div class="form-group d-flex justify-content-center p-3">
+                            <button class="btn btn-success px-5" name="submit">Confirm Booking</button>
+                        </div>
+                    </div>
+                </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
     
 </body>
 </html>
