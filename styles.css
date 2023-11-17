@@ -27,7 +27,11 @@
 }
 
 .footer-list > li:hover{
-    background-color: #D7D0C6;
+    color: #D7D0C6;
+}
+
+.footerLinks > a >i:hover{
+    background-color:  rgb(215,208,198);
 }
 
 .beefeaterTag{
