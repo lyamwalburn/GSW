@@ -46,3 +46,7 @@
     background-image: url(images/factory-gate-large.jpg);
     background-size: cover;
 }
+
+.storeImage{
+    max-height: 200px;
+}
