@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
 
+.dance{
+    font-family: 'font-family: 'Oswald', sans-serif;', cursive;
+}
+
 .head-color{
     background-color: #D7D0C6;
 }
@@ -12,6 +16,10 @@
     list-style: url("/images/harp-small.png");
     padding: 0;
     margin: 0;
+}
+
+.tableFont{
+    font-size:large;
 }
 
 .beefLink{
