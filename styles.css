@@ -46,3 +46,8 @@
     background-image: url(images/factory-gate-large.jpg);
     background-size: cover;
 }
+
+body{
+    background: rgb(215,208,198);
+    background: linear-gradient(180deg, rgba(215,208,198,1) 0%, rgba(0,0,0,1) 47%, rgba(0,0,0,1) 100%);
+}
