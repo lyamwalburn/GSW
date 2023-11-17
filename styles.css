@@ -59,6 +59,7 @@
 .heroImg{
     background-image: url(images/factory-gate-large.jpg);
     background-size: cover;
+    background-position: center;
 }
 
 .storeImage{
