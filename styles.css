@@ -70,3 +70,8 @@ body{
     text-decoration: none;
     text-align: center;
 }
+
+.nav-item:hover{
+    background-color: #9b968d;
+    border-radius: 5px;
+}
