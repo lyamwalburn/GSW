@@ -8,8 +8,14 @@
     transform: scale(1.2);
 }
 
-.footer-list{
+.splitG{
     list-style: url("/images/harp-small.png");
+    padding: 0;
+    margin: 0;
+}
+
+.beefLink{
+    list-style: url(/new_images/small\ beef.png);
     padding: 0;
     margin: 0;
 }
