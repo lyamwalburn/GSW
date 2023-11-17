@@ -36,16 +36,12 @@
     cursor: pointer;
 }
 
-.footer-list > li > a:hover, .footer-link:hover{
-    background-color: #D7D0C6;
-}
-
 .footer-list > li:hover{
-    color: #D7D0C6;
+    text-decoration: underline;
 }
 
 .footerLinks > a >i:hover{
-    background-color:  rgb(215,208,198);
+    transform: scale(1.2);
 }
 
 .beefeaterTag{
@@ -82,4 +78,12 @@ body{
 .nav-item:hover{
     background-color: #9b968d;
     border-radius: 5px;
+}
+
+.lightShadow{
+    box-shadow: 10x 5px 5px red;
+}
+
+.guinessText{
+    color: #D7D0C6;
 }
